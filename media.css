@@ -1,0 +1,172 @@
+@media (max-width: 800px) {
+    /*MENU*/
+    html,
+    body,
+    section {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .header-container {
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .side-menu {
+        display: block;
+        padding-right: 2vh;
+        padding-top: 2vh;
+        display: flex;
+        align-self: flex-end;
+        background-color: transparent;
+    }
+    .menu-container {
+        cursor: pointer;
+        display: inline-block;
+    }
+    .menu-icon-bar {
+        width: 2.3rem;
+        height: 0.3rem;
+        background-color: black;
+        margin: 0.45rem 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+        transform: rotate(-45deg) translate(-9px, 9px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-9px, -9px);
+        transform: rotate(45deg) translate(-9px, -9px);
+    }
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        font-size: 2rem;
+        background-color: #a18bad;
+        overflow-x: hidden;
+        padding-top: 5rem;
+        transition: 0.5s;
+    }
+    /* The navigation menu links */
+    .sidenav a,
+    .close-menu-btn {
+        padding: 0.5rem 0.5rem 0.5rem 2rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #dedfff;
+        display: block;
+        transition: 0.3s;
+        background-color: transparent;
+        border: none;
+    }
+    .sidenav a:hover,
+    .close-menu-btn:hover {
+        color: #acaee3;
+        background-color: transparent;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        font-size: 4rem;
+        margin-left: 4rem;
+    }
+    #main {
+        transition: margin-left 0.5s;
+        padding: 1.5rem;
+    }
+    #main h1 {
+        font-size: 5rem;
+        padding-bottom: 15vh;
+    }
+    .social-links img {
+        width: 13vw;
+    }
+    #about {
+        display: block;
+    }
+    .avatar-container {
+        width: 100%;
+    }
+    .avatar {
+        width: 70%;
+    }
+    .about-me-paragraph-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-container {
+        width: 100%;
+    }
+    #main {
+        width: 85%;
+    }
+    .columns {
+        display: block;
+    }
+    .column {
+        width: 100%;
+    }
+    .parallax-background-section h3 {
+        font-size: 3rem;
+    }
+    .about-section {
+        display: block;
+    }
+    .about-section h3 {
+        text-align: right;
+    }
+    .project-img-container {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .project-description {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+    .project-section-img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .project-section {
+        display: block;
+    }
+    .project-description p {
+        text-align: center;
+        width: 100%;
+    }
+    .project-description h2 {
+        text-align: left;
+        font-size: 1.2em;
+        width: 100%;
+        padding: 1vh 0;
+    }
+    footer {
+        font-size: 1em;
+        width: 100%;
+    }
+    .col-2-left {
+        display: none;
+    }
+    .col-3-right {
+        display: block;
+    }
+    .skills-list li {
+        margin-right: 1vw;
+        padding: 1vh 2vw;
+    }
+}
