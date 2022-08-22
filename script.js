@@ -75,10 +75,6 @@ menuIcon.addEventListener('click', function () {
 
 const mobileMenu = document.querySelector('.mySidenav');
 
-mobileMenu.addEventListener('side-menu', () => {
-  closeNav();
-});
-
 closeMenuBtn.addEventListener('click', closeNav);
 
 function closeNav() {
