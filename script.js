@@ -73,8 +73,6 @@ menuIcon.addEventListener('click', function () {
   }
 });
 
-const mobileMenu = document.querySelector('.mySidenav');
-
 closeMenuBtn.addEventListener('click', closeNav);
 
 function closeNav() {
